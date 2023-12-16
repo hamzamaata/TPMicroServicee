@@ -20,9 +20,9 @@ public class ClientApplication {
 	@Bean
 	CommandLineRunner initialiserBaseH2(ClientRepository clientRepository){
 		return args ->{
-			clientRepository.save(new Client(Long.parseLong("1"),"meryem Mouhoubi",Float.parseFloat("24")));
-			clientRepository.save(new Client(Long.parseLong("2"),"taha moubhoubi",Float.parseFloat("27")));
-			clientRepository.save(new Client(Long.parseLong("3"),"iman mouhoubi",Float.parseFloat("30")));
+			clientRepository.save(new Client(Long.parseLong("1"),"maataoui hamza",Float.parseFloat("24")));
+			clientRepository.save(new Client(Long.parseLong("2"),"ali maataoui",Float.parseFloat("27")));
+			clientRepository.save(new Client(Long.parseLong("3"),"yassin alaoui",Float.parseFloat("30")));
 		};
 	}
 }
